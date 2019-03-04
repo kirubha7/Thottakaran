@@ -31,7 +31,13 @@
        @include('thottakaran.layout.header')
        
         
-        @yield('content')
+        @yield('slide')
+        @yield('services')
+        @yield('gallery')
+        @yield('about-us')
+        @yield('testimonals')
+        @yield('partners')
+        @yield('contact-us')
 
 
        @include('thottakaran.layout.footer')

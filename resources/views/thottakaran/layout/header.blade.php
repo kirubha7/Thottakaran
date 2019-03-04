@@ -40,10 +40,10 @@
                  <div class="header-nav navbar-collapse collapse justify-content-end"  id="navbarNavDropdown">
                      <ul class=" nav navbar-nav">
                          <li class="active"> <a href="{{ route('home') }}">Home<i class="fa fa-chevron-down"></i></a></li>
-                         <li class="@yield('services')"> <a href="#services">Services<i class="fa fa-chevron-down"></i></a></li>
-                         <li class="@yield('gallery')"> <a href="#gallery">Gallery<i class="fa fa-chevron-down"></i></a></li>
-                         <li class="@yield('about-us')"> <a href="#About-Us">About Us<i class="fa fa-chevron-down"></i></a>
-                         <li class="@yield('contact-us')"> <a href="#contact-us">Contact Us<i class="fa fa-chevron-down"></i></a></li>
+                         <li class=""> <a href="#services">Services<i class="fa fa-chevron-down"></i></a></li>
+                         <li class=""> <a href="#gallery">Gallery<i class="fa fa-chevron-down"></i></a></li>
+                         <li class=""> <a href="#About-Us">About Us<i class="fa fa-chevron-down"></i></a>
+                         <li class=""> <a href="#contact-us">Contact Us<i class="fa fa-chevron-down"></i></a></li>
                      </ul>
                  </div>
              </div>

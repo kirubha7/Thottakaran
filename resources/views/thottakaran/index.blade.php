@@ -1,7 +1,7 @@
 @extends('thottakaran.layout.master')
-@section('content')
-<div class="page-content">
-            <!-- Slider -->
+
+@section('slide')
+ <!-- Slider -->
             <div class="main-slider style-two default-banner" id="home">
                 <div class="tp-banner-container">
                     <div class="tp-banner" >
@@ -112,6 +112,9 @@
                 </div>        
             </div>        
             <!-- Slider END -->
+@endsection
+
+@section('services')
             <!-- Our Services Start -->
             <div class="section-full content-inner bg-white" id="services">
                 <div class="container">
@@ -279,6 +282,7 @@
                     </div>
                 </div>
             </div>
+@endsection
             <!-- Our Services END -->
             <!-- Get A Quote -->
           {{--  <div class="section-full bg-img-fix overlay-primary-dark p-tb50 dez-support" style="background-image:url(images/background/bg9.jpg);">
@@ -293,7 +297,9 @@
                 </div>
             </div>--}}
             <!-- Get A Quote END -->
-            <!-- Our Projects  -->
+
+ @section('gallery')
+     <!-- Our Projects  -->
             <div class="section-full content-inner-2 bg-white gallery-projects" id="gallery">
                 <div class="section-head  text-center text-black">
                     <h3 class="h3 text-uppercase">Our <span class="text-primary">Gallery</span></h3>
@@ -396,7 +402,9 @@
                 </div>
             </div>
             <!-- Our Projects END -->
+@endsection
 
+@section('about-us')
     <div class="section-full bg-img-fix bg-white content-inner" id="About-Us">
         <div class="container">
             <div class="section-head  text-center text-black" >
@@ -445,7 +453,9 @@
             </div>
         </div>
     </div>
-           
+@endsection
+
+@section('testimonals')
             <!-- Testimonials blog -->
             <div class="section-full overlay-primary-dark bg-img-fix content-inner-1 text-white" style="background-image:url(images/background/bg9.jpg);">
                 <div class="container">
@@ -490,7 +500,9 @@
                 </div>
             </div>
             <!-- Testimonials blog END -->
-            <!-- Client logo -->
+@endsection
+
+@section('partners')
             <div class="section-full dez-we-find bg-img-fix p-t50 p-b50 ">
                 <div class="container">
                     <div class="section-content">
@@ -529,8 +541,5 @@
                     </div>
                 </div>
             </div>
-            <!-- Client logo END -->
-        </div>
-<!-- Our Services -->
-
 @endsection
+
