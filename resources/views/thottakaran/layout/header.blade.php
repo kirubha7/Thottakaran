@@ -39,11 +39,11 @@
                  <!-- main nav -->
                  <div class="header-nav navbar-collapse collapse justify-content-end"  id="navbarNavDropdown">
                      <ul class=" nav navbar-nav">
-                         <li class="active"> <a href="{{ route('home') }}">Home<i class="fa fa-chevron-down"></i></a></li>
-                         <li class=""> <a href="#services">Services<i class="fa fa-chevron-down"></i></a></li>
-                         <li class=""> <a href="#gallery">Gallery<i class="fa fa-chevron-down"></i></a></li>
-                         <li class=""> <a href="#About-Us">About Us<i class="fa fa-chevron-down"></i></a>
-                         <li class=""> <a href="#contact-us">Contact Us<i class="fa fa-chevron-down"></i></a></li>
+                         <li class="active"> <a href="{{ route('home') }}">Home</a></li>
+                         <li class=""> <a href="#services">Services</a></li>
+                         <li class=""> <a href="#gallery">Gallery</a></li>
+                         <li class=""> <a href="#About-Us">About Us</a>
+                         <li class=""> <a href="#contact-us">Contact Us</a></li>
                      </ul>
                  </div>
              </div>
