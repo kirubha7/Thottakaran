@@ -50,49 +50,42 @@
                      <div class="p-a30 bg-gray clearfix m-b30 ">
                          <h2>Send Message Us</h2>
                          <div class="dzFormMsg"></div>
-                         <form method="post" class="dzForm" action="">
+                         <form method="post"  action="{{ route('mail') }}">
+                             @csrf()
                              <input type="hidden" value="Contact" name="dzToDo" >
                              <div class="row">
                                  <div class="col-lg-6 col-sm-6">
                                      <div class="form-group">
                                          <div class="input-group">
-                                             <input name="dzName" type="text" required class="form-control" placeholder="Your Name">
+                                             <input name="name" type="text" required class="form-control" placeholder="Your Name">
                                          </div>
                                      </div>
                                  </div>
                                  <div class="col-lg-6 col-sm-6">
                                      <div class="form-group">
                                          <div class="input-group">
-                                             <input name="dzEmail" type="email" class="form-control" required  placeholder="Your Email Id" >
+                                             <input name="email" type="email" class="form-control" required  placeholder="Your Email Id" >
                                          </div>
                                      </div>
                                  </div>
                                  <div class="col-lg-6 col-sm-6">
                                      <div class="form-group">
                                          <div class="input-group">
-                                             <input name="dzOther[Phone]" type="text" required class="form-control" placeholder="Phone">
+                                             <input name="phone" type="text" required class="form-control" placeholder="Phone">
                                          </div>
                                      </div>
                                  </div>
                                  <div class="col-lg-6 col-sm-6">
                                      <div class="form-group">
                                          <div class="input-group">
-                                             <input name="dzOther[Subject]" type="text" required class="form-control" placeholder="Subject">
+                                             <input name="subject" type="text" required class="form-control" placeholder="Subject">
                                          </div>
                                      </div>
                                  </div>
                                  <div class="col-lg-12">
                                      <div class="form-group">
                                          <div class="input-group">
-                                             <textarea name="dzMessage" rows="4" class="form-control" required placeholder="Your Message..."></textarea>
-                                         </div>
-                                     </div>
-                                 </div>
-                                 <div class="col-lg-12">
-                                     <div class="form-group">
-                                         <div class="input-group">
-                                             <div class="g-recaptcha" data-sitekey="6LefsVUUAAAAADBPsLZzsNnETChealv6PYGzv3ZN" data-callback="verifyRecaptchaCallback" data-expired-callback="expiredRecaptchaCallback"></div>
-                                             <input class="form-control d-none" style="display:none;" data-recaptcha="true" required data-error="Please complete the Captcha">
+                                             <textarea name="message" rows="4" class="form-control" required placeholder="Your Message..."></textarea>
                                          </div>
                                      </div>
                                  </div>

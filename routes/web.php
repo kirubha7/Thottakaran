@@ -12,6 +12,4 @@
 */
 
 Route::get('/', function () { return view('thottakaran.index'); })->name('home');
-Route::get('/contact', function () { return view('thottakaran.contact'); })->name('contact');
-Route::get('/about', function () { return view('thottakaran.about'); })->name('about');
-
+Route::post('/sendmail','MailController@sendMail')->name('mail');

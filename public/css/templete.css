@@ -209,7 +209,7 @@
 }
 .dez-team .dez-img-overlay6:before,
 .dez-team .dez-img-overlay6:after{
-	background-image:url(../images/overlay/rrdiagonal-line.png);
+	background-image:url(images/overlay/rrdiagonal-line.png);
 	background-color:rgba(0,0,0,0);
 	opacity: 0.2;
 }
