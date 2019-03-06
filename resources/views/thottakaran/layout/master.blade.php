@@ -9,8 +9,7 @@
     <meta property="og:title" content="Thottakaran"/>
     <meta name="description" content=""/>
     
-    <link rel="icon" href="{{ url('images/favicon.ico') }}" type="image/x-icon" />
-    <link rel="shortcut icon" type="image/x-icon" href="{{ url('images/favicon.png') }}" />
+    <link rel="shortcut icon" type="image/x-icon" href="{{ url('images/logo.jpg') }}" />
     
     <title>Thottakaran @yield('title')</title>
     
