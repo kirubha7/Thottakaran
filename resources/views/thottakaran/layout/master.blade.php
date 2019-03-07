@@ -6,8 +6,8 @@
     <meta name="keywords" content="" />
     <meta name="author" content="Greefi Technology" />
     <meta name="robots" content="" />
-    <meta property="og:title" content="Thottakaran"/>
-    <meta name="description" content=""/>
+    <meta property="og:title" content="Thottakaaran"/>
+    <meta name="description" content="Thottakaaran ia a venture that was started to provide is customers greenery in any form as per their customizations."/>
     
     <link rel="shortcut icon" type="image/x-icon" href="{{ url('images/logo.jpg') }}" />
     
