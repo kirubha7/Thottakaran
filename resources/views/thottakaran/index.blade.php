@@ -314,7 +314,7 @@
                 <h3 class="h3 text-uppercase">About <span class="text-primary">Us</span></h3>
             </div>
             <div class="row m-b30">
-                <div class="col-lg-4 col-md-6 col-sm-12">
+                <div class="col-lg-4 col-md-12 col-sm-12">
                     <div class="icon-bx-wraper bx-style-2 m-l40 m-b30 p-a30 left dashed">
                         <div class="icon-bx-sm text-primary bg-white radius border-1 dashed">
                             <a href="#" class="icon-cell">
@@ -322,12 +322,12 @@
                             </a>
                         </div>
                         <div class="icon-content p-l40">
-                            <h5 class="dez-tilte text-uppercase">Experience Skills</h5>
-                            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod</p>
+                            <h5 class="dez-tilte text-uppercase">vision</h5>
+                            <p>Thottakaaran's vision is to see the world green again. With the growing industrialization and urbanization, we have forgotten to protect and preserve the gifts our mother nature has provided us, and we have been constantly but slowly destroying them, despite knowing the aftermath</p>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6 col-sm-12">
+                <div class="col-lg-4 col-md-12 col-sm-12">
                     <div class="icon-bx-wraper bx-style-2 m-l40 m-b30 p-a30 left dashed">
                         <div class="icon-bx-sm text-primary bg-white radius border-1 dashed">
                             <a href="#" class="icon-cell">
@@ -335,12 +335,12 @@
                             </a>
                         </div>
                         <div class="icon-content p-l40">
-                            <h5 class="dez-tilte text-uppercase">Guarantee Services</h5>
-                            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod</p>
+                            <h5 class="dez-tilte text-uppercase">About </h5>
+                            <p>Thottakaaran is a venture that was started to provide its customers 'greenery' in any form as per their customizations</p>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-12 col-sm-12">
+              <!--  <div class="col-lg-4 col-md-12 col-sm-12">
                     <div class="icon-bx-wraper bx-style-2 m-l40 m-b30 p-a30 left dashed">
                         <div class="icon-bx-sm text-primary bg-white radius border-1 dashed">
                             <a href="#" class="icon-cell">
@@ -352,7 +352,7 @@
                             <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod</p>
                         </div>
                     </div>
-                </div>
+                </div>-->
             </div>
         </div>
     </div>
