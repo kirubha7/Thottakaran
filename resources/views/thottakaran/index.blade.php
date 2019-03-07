@@ -116,214 +116,117 @@
 
 @section('services')
             <!-- Our Services Start -->
-            <div class="section-full content-inner bg-white" id="services">
+
+            <div class="section-full bg-white content-inner-1 garden-tabs" id="services">
                 <div class="container">
                     <div class="section-head text-center" >
                         <h3 class="h3 text-uppercase">Our Best <span class="text-primary">Services</span></h3>
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry has been the industry's standard dummy text ever since the been when an unknown printer.</p>
+
                     </div>
-                    <div class="section-content">
-                        <div class="row">
-                            <div class="col-lg-4 col-sm-6 m-b30">
-                                <div class="dez-box">
-                                    <div class="dez-media"> <a href="#"><img src="{{ url('images/our-services/service-4/garden_design.jpg') }}" alt=""></a> </div>
-                                    <div class="dez-info p-a20 text-center bg-gray">
-                                        <div class="p-lr20">
-                                            <h4 class="m-a0 bg-primary service-head"><a href="#">Garden Design and Landscaping</a></h4>
-                                        </div>  
-                                        <p class="m-b0">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry..Lorem Ipsum is simply Ipsum is simply dummy text of the..</p>
-                                        <div class="m-t20">
-                                            <a href="#" class="site-button radius-xl">Read More</a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-4 col-sm-6 m-b30">
-                                <div class="dez-box">
-                                    <div class="dez-media"> <a href="#"><img src="{{ url('images/our-services/service-4/garden_maintanance.jpg') }}" alt=""></a> </div>
-                                    <div class="dez-info p-a20 text-center bg-gray">
-                                        <div class="p-lr20">
-                                            <h4 class="m-a0 bg-primary service-head"><a href="#">Garden Maintenance</a></h4>
-                                        </div>  
-                                        <p class="m-b0">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry..Lorem Ipsum is simply Ipsum is simply dummy text of the..</p>
-                                        <div class="m-t20">
-                                            <a href="#" class="site-button radius-xl">Read More</a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-4 col-sm-6 m-b30">
-                                <div class="dez-box">
-                                    <div class="dez-media"> <a href="#"><img src="{{ url('images/our-services/service-4/garden_tiy_up.jpg') }}" alt=""></a> </div>
-                                    <div class="dez-info p-a20 text-center bg-gray">
-                                        <div class="p-lr20">
-                                            <h4 class="m-a0 bg-primary service-head"><a href="#">Garden Tiy-up</a></h4>
-                                        </div>  
-                                        <p class="m-b0">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry..Lorem Ipsum is simply Ipsum is simply dummy text of the..</p>
-                                        <div class="m-t20">
-                                            <a href="#" class="site-button radius-xl">Read More</a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-4 col-sm-6 m-b30">
-                                <div class="dez-box">
-                                    <div class="dez-media"> <a href="#"><img src="{{ url('images/our-services/service-4/lawn_mowing.jpg') }}" alt=""></a> </div>
-                                    <div class="dez-info p-a20 text-center bg-gray">
-                                        <div class="p-lr20">
-                                            <h4 class="m-a0 bg-primary service-head"><a href="#">Lawn Mowing</a></h4>
-                                        </div>  
-                                        <p class="m-b0">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry..Lorem Ipsum is simply Ipsum is simply dummy text of the..</p>
-                                        <div class="m-t20">
-                                            <a href="#" class="site-button radius-xl">Read More</a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-4 col-sm-6 m-b30">
-                                <div class="dez-box">
-                                    <div class="dez-media"> <a href="#"><img src="{{ url('images/our-services/service-4/hedge_cutting.jpg') }}" alt=""></a> </div>
-                                    <div class="dez-info p-a20 text-center bg-gray">
-                                        <div class="p-lr20">
-                                            <h4 class="m-a0 bg-primary service-head"><a href="#">Hedge Cutting </a></h4>
-                                        </div>  
-                                        <p class="m-b0">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry..Lorem Ipsum is simply Ipsum is simply dummy text of the..</p>
-                                        <div class="m-t20">
-                                            <a href="#" class="site-button radius-xl">Read More</a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-4 col-sm-6 m-b30">
-                                <div class="dez-box">
-                                    <div class="dez-media"> <a href="#"><img src="{{ url('images/our-services/service-4/painting.jpg') }}" alt=""></a> </div>
-                                    <div class="dez-info p-a20 text-center bg-gray">
-                                        <div class="p-lr20">
-                                            <h4 class="m-a0 bg-primary service-head"><a href="#">Painting</a></h4>
-                                        </div>  
-                                        <p class="m-b0">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry..Lorem Ipsum is simply Ipsum is simply dummy text of the..</p>
-                                        <div class="m-t20">
-                                            <a href="#" class="site-button radius-xl">Read More</a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-4 col-sm-6 m-b30">
-                                <div class="dez-box">
-                                    <div class="dez-media"> <a href="#"><img src="{{ url('images/our-services/service-4/leaf_clearance.jpg') }}" alt=""></a> </div>
-                                    <div class="dez-info p-a20 text-center bg-gray">
-                                        <div class="p-lr20">
-                                            <h4 class="m-a0 bg-primary service-head"><a href="#">Leaf Clearance</a></h4>
-                                        </div>  
-                                        <p class="m-b0">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry..Lorem Ipsum is simply Ipsum is simply dummy text of the..</p>
-                                        <div class="m-t20">
-                                            <a href="#" class="site-button radius-xl">Read More</a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-4 col-sm-6 m-b30">
-                                <div class="dez-box">
-                                    <div class="dez-media"> <a href="#"><img src="{{ url('images/our-services/service-4/planting.jpg') }}" alt=""></a> </div>
-                                    <div class="dez-info p-a20 text-center bg-gray">
-                                        <div class="p-lr20">
-                                            <h4 class="m-a0 bg-primary service-head"><a href="#">Planting</a></h4>
-                                        </div>  
-                                        <p class="m-b0">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry..Lorem Ipsum is simply Ipsum is simply dummy text of the..</p>
-                                        <div class="m-t20">
-                                            <a href="#" class="site-button radius-xl">Read More</a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-4 col-sm-6 m-b30">
-                                <div class="dez-box">
-                                    <div class="dez-media"> <a href="#"><img src="{{ url('images/our-services/service-4/wedding.jpg') }}" alt=""></a> </div>
-                                    <div class="dez-info p-a20 text-center bg-gray">
-                                        <div class="p-lr20">
-                                            <h4 class="m-a0 bg-primary service-head"><a href="#">Weeding</a></h4>
-                                        </div>  
-                                        <p class="m-b0">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry..Lorem Ipsum is simply Ipsum is simply dummy text of the..</p>
-                                        <div class="m-t20">
-                                            <a href="#" class="site-button radius-xl">Read More</a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-4 col-sm-6 m-b30">
-                                <div class="dez-box">
-                                    <div class="dez-media"> <a href="#"><img src="{{ url('images/our-services/service-4/patio_cleaning.jpg') }}" alt=""></a> </div>
-                                    <div class="dez-info p-a20 text-center bg-gray">
-                                        <div class="p-lr20">
-                                            <h4 class="m-a0 bg-primary service-head"><a href="#">Patio Cleaning</a></h4>
-                                        </div>  
-                                        <p class="m-b0">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry..Lorem Ipsum is simply Ipsum is simply dummy text of the..</p>
-                                        <div class="m-t20">
-                                            <a href="#" class="site-button radius-xl">Read More</a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                             <div class="col-lg-4 col-sm-6 m-b30">
-                                <div class="dez-box">
-                                    <div class="dez-media"> <a href="#"><img src="{{ url('images/our-services/service-4/other_odd_jobs.jpg') }}" alt=""></a> </div>
-                                    <div class="dez-info p-a20 text-center bg-gray">
-                                        <div class="p-lr20">
-                                            <h4 class="m-a0 bg-primary service-head"><a href="#">Other Odd Jobs</a></h4>
-                                        </div>  
-                                        <p class="m-b0">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry..Lorem Ipsum is simply Ipsum is simply dummy text of the..</p>
-                                        <div class="m-t20">
-                                            <a href="#" class="site-button radius-xl">Read More</a>
-                                        </div>
-                                    </div>
+
+                    <div class="row">
+                        <div class="col-lg-3 col-md-4">
+                            <div class="garden-service-tabs">
+                                <ul class="nav nav-tabs">
+                                    <li class="nav-item">
+                                        <a class="nav-link active" data-toggle="tab" href="#landscaping">Vertical Gardening</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" data-toggle="tab" href="#mowing">Terrace Gardening</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" data-toggle="tab" href="#spring-clean">Plant Gifts</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" data-toggle="tab" href="#fall-clean">Plant Return Gifts</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" data-toggle="tab" href="#tree-removal">Plant Interior Designing</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" data-toggle="tab" href="#lawn-care">Landscaping</a>
+                                    </li>
+                                </ul>
+
+                                <div class="p-tb30">
+                                    <a href="#"><img src="images/ads/add.png" alt=""/></a>
                                 </div>
                             </div>
                         </div>
+                        <div class="col-lg-9 col-md-8">
+                            <div class="tab-content">
+                                <div id="landscaping" class="tab-pane active">
+                                    <div class="m-b30">
+                                        <img src="images/our-work/work4/vertical_garderning.jpg" alt="">
+                                    </div>
+
+                                    <h2 class="m-b10">Vertical Gardening</h2>
+                                    <p>A vertical garden is a garden that grows upward (vertically) using a trellis or other support system, rather than on the ground (horizontally). Anything grown on a trellis or even a fence is technically part of a vertical garden. This technique can be used to create living screens between different areas, providing privacy for your yard or home. Vertical gardening is used by many as a means to ensure they are using their garden space to its maximum potential. A simple structure formed by bamboo poles can allow bean plants to climb vertically, providing more growing space than would be possible in a conventional horizontal garden. Cucumbers, squash, and even tomatoes can be grown vertically, as well. Harvesting crops from a vertical garden is significantly easier than with a conventional on-the-ground garden. Because you are able to harvest while standing mostly upright or completely upright (depending on the vertical level being harvested), as opposed to kneeling or squatting on the ground, vertical gardening is easier on the back and legs, and many people with arthritis or other disabilities find it highly beneficial.</p>
+
+                                </div>
+                                <div id="mowing" class="tab-pane fade">
+                                    <div class="m-b30">
+                                        <img src="images/our-work/work4/terrace_gardening.jpg" alt="">
+                                    </div>
+
+
+                                    <h2 class="m-b10">Terrace Gardening</h2>
+                                    <p>In gardening, a terrace is an element where a raised flat paved or gravelled section overlooks a prospect. A raised terrace keeps a house dry and provides a transition between the hard materials of the architecture and softer ones of the garden. it is a garden that cultivates vegetables, fruits or flowers on the terrace. The kitchen garden, a standard in every Indian household, has shifted to the roof due to constraints of space, and called a terrace garden. Having a rooftop garden with soil and luscious lawns is a very viable option. These gardens can be created on almost all kinds of buildings like residential flats, individual houses, commercial hubs, godowns and factories. Plants have the capability to reduce the heat absorption of a building and in effect, reduce the energy consumption too. It can also provide a valuable and productive hobby to keep yourself occupied and your mind off the pressures of life in the city.</p>
+
+                                </div>
+                                <div id="spring-clean" class="tab-pane fade">
+                                    <div class="m-b30">
+                                        <img src="images/our-work/work4/plants_gifts.jpg" alt="">
+                                    </div>
+                                    <h2 class="m-b10">Plant Gifts</h2>
+                                    <p>Plants are more than the sum of their leaves, stems, fronds and roots. They serve as a reminder of nature’s wild beauty that we crave outside the confines of our homes and offices. The simplicity, steady growth, and relatively low-maintenance of plants (especially compared to animal companions) endear themselves to whomever they are given. Simply put, plants are good for you. Potted but never passive, they drink up water and sunlight with cheerfulness, quietly commanding attention from across the room, standing tall and regal next to your sofa, cascading majestically down the side of your bookshelf, or sprawling out across the top of your kitchen cabinets.It’s one of the most hardy, sustainable gifts you can find, and unlike highly-personalized taste in flowers and the symbolic meaning of their bold colors. A well-tended houseplant is the gift that keeps on giving. It’s an investment that can be marveled at for years and passed down for generations.</p>
+
+
+                                </div>
+                                <div id="fall-clean" class="tab-pane fade">
+                                    <div class="m-b30">
+                                        <img src="images/our-work/work4/plant_return_gifts.jpg" alt="">
+                                    </div>
+                                    <h2 class="m-b10">Plant Return Gifts</h2>
+                                    <p>Celebrations on birthdays, wedding anniversaries and other occasions are incomplete without exchanging gifts. Gifts are meant to be cherished and remembered, thereby, creating long-lasting impressions. Most gifts have a shelf life ranging from 2 days to 2 months, i.e., flower bouquets, chocolates etc. All these gifts are lifeless and do not last for very long. What better way to honor someone or celebrate an occasion than by gifting a plant? Thottakaaran believes that a plant cannot only be just a gift, but a return gift as well. Green return gifts imprints its essence in the mind of the receiver. The easiest way to spread awareness about environment is by making people fall in love with plants. </p>
+
+                                </div>
+                                <div id="tree-removal" class="tab-pane fade">
+                                    <div class="m-b30">
+                                        <img src="images/our-work/work4/plants_interior_design.jpg" alt="">
+                                    </div>
+
+
+                                    <h2 class="m-b10">Plant Interior Designing</h2>
+                                    <p>Indoor plants play an important role in interior design. They bring in a living element that is portable, growing, and ever-changing, for a fraction of the cost of a new wall or architectural element. They provide function and form while looking beautiful. They can change the ambiance and feel of a space. They add color to complement any décor. They enhance the design without interfering with other important design elements. Indoor plants and their containers act as accessories in the interior design. They add to the overall design and help to create the overall look and feel of the space. An indoor plant can act as a focal point, drawing people through the space and towards a specific destination.</p>
+
+                                </div>
+                                <div id="lawn-care" class="tab-pane fade">
+                                    <div class="m-b30">
+                                        <img src="images/our-work/work4/landscaping.jpg" alt="">
+                                    </div>
+
+                                    <h2 class="m-b10">Lanscaping Services</h2>
+                                    <p>People have practiced landscaping for centuries. As far back as the ancient Mayans, humans were manipulating the land for both aesthetic and practical reasons. The addition of plants, changes to the existing terrain and the construction of structures are all part of landscaping. Today landscaping refers to the planning, laying out and construction of gardens that enhance the appearance and create useable space for outdoor activities around a place.</p>
+
+                                </div>
+
+                            </div>
+                        </div>
                     </div>
+
                 </div>
             </div>
 @endsection
-            <!-- Our Services END -->
-            <!-- Get A Quote -->
-          {{--  <div class="section-full bg-img-fix overlay-primary-dark p-tb50 dez-support" style="background-image:url(images/background/bg9.jpg);">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-12 text-center text-white ">
-                            <h2 class="m-b15 h4 m-t0">We provide 24/7 customer support.</h2>
-                            <h3 class="m-t0 m-b20">Please feel free to contact us at (01) 234 5678 for emergency case.</h3>
-                            <a href="#" class="site-button white radius-sm">Read More</a>
-                        </div>
-                   </div>
-                </div>
-            </div>--}}
-            <!-- Get A Quote END -->
 
  @section('gallery')
      <!-- Our Projects  -->
             <div class="section-full content-inner-2 bg-white gallery-projects" id="gallery">
                 <div class="section-head  text-center text-black">
                     <h3 class="h3 text-uppercase">Our <span class="text-primary">Gallery</span></h3>
-                   {{-- <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry has been the industry's standard dummy text ever since the been when an unknown printer.</p>--}}
+
                 </div>
-                {{--<div class="site-filters clearfix center  m-b40">--}}
-                    {{--<ul class="filters" data-toggle="buttons">--}}
-                        {{--<li data-filter="" class="btn active">--}}
-                            {{--<input type="radio">--}}
-                            {{--<a href="#" class="site-button-secondry"><span>Show All</span></a> </li>--}}
-                        {{--<li data-filter="home" class="btn">--}}
-                            {{--<input type="radio" >--}}
-                            {{--<a href="#" class="site-button-secondry "><span>Planting </span></a> </li>--}}
-                        {{--<li data-filter="office" class="btn">--}}
-                            {{--<input type="radio">--}}
-                            {{--<a href="#" class="site-button-secondry "><span>Landscaping</span></a> </li>--}}
-                        {{--<li data-filter="commercial" class="btn">--}}
-                            {{--<input type="radio">--}}
-                            {{--<a href="#" class="site-button-secondry "><span>Hardscapes</span></a> </li>--}}
-                        {{--<li data-filter="window" class="btn">--}}
-                            {{--<input type="radio">--}}
-                            {{--<a href="#" class="site-button-secondry "><span>Lewis Mcdonald</span></a> </li>--}}
-                    {{--</ul>--}}
-                {{--</div>--}}
+
                 <div class="clearfix">
                     <ul id="masonry" class="dez-gallery-listing gallery-grid-4 gallery mfp-gallery m-b0">
                         <li class="home card-container col-lg-3 col-lg-3 col-md-6 p-a0 col-6">
