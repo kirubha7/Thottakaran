@@ -314,7 +314,7 @@
                 <h3 class="h3 text-uppercase">About <span class="text-primary">Us</span></h3>
             </div>
             <div class="row m-b30">
-                <div class="col-lg-4 col-md-12 col-sm-12">
+                <div class="col-lg-6 col-md-12 col-sm-12">
                     <div class="icon-bx-wraper bx-style-2 m-l40 m-b30 p-a30 left dashed">
                         <div class="icon-bx-sm text-primary bg-white radius border-1 dashed">
                             <a href="#" class="icon-cell">
@@ -327,7 +327,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-12 col-sm-12">
+                <div class="col-lg-6 col-md-12 col-sm-12">
                     <div class="icon-bx-wraper bx-style-2 m-l40 m-b30 p-a30 left dashed">
                         <div class="icon-bx-sm text-primary bg-white radius border-1 dashed">
                             <a href="#" class="icon-cell">
