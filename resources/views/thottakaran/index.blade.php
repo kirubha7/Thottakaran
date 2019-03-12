@@ -372,9 +372,9 @@
                                 <div class="testimonial-3">
                                     <div class="quote-left"></div>
                                     <div class="testimonial-text">
-                                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy [...]</p>
+                                        <p>Excellent Service And Best Price 😍 Thank You So Much Thambi, Best Wishes For Your Future Endeavors</p>
                                     </div>
-                                    <div class="testimonial-detail m-b30"> <strong class="testimonial-name">David Matin</strong> / <span>Gardener</span> </div>
+                                    <div class="testimonial-detail m-b30"> <strong class="testimonial-name">Vidhya Gunasekaran</strong> / <span>Gardener</span> </div>
                                     <div class="testimonial-pic radius shadow"><img src="{{ url('images/testimonials/pic1.jpg') }}" alt="" width="100" height="100"></div>
                                 </div>
                             </div>
@@ -382,9 +382,9 @@
                                 <div class="testimonial-3">
                                     <div class="quote-left"></div>
                                     <div class="testimonial-text">
-                                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy [...]</p>
+                                        <p>Excellent initiative by the team. Dedicated and hardworking</p>
                                     </div>
-                                    <div class="testimonial-detail  m-b30"> <strong class="testimonial-name">David Matin</strong> / <span>Gardener</span> </div>
+                                    <div class="testimonial-detail  m-b30"> <strong class="testimonial-name">Chethan Kumar</strong> / <span>Gardener</span> </div>
                                     <div class="testimonial-pic radius shadow"><img src="{{ url('images/testimonials/pic2.jpg') }}" alt="" width="100" height="100"></div>
                                 </div>
                             </div>
@@ -392,9 +392,9 @@
                                 <div class="testimonial-3">
                                     <div class="quote-left"></div>
                                     <div class="testimonial-text">
-                                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy [...]</p>
+                                        <p>Corporate plant gifts at best price</p>
                                     </div>
-                                    <div class="testimonial-detail m-b30"> <strong class="testimonial-name">David Matin</strong> / <span>Gardener</span> </div>
+                                    <div class="testimonial-detail m-b30"> <strong class="testimonial-name">Chiranjeevi Shankar</strong> / <span>Gardener</span> </div>
                                     <div class="testimonial-pic radius shadow"><img src="{{ url('images/testimonials/pic3.jpg') }}" alt="" width="100" height="100"></div>
                                 </div>
                             </div>
