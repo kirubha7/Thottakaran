@@ -364,7 +364,6 @@
                 <div class="container">
                     <div class="section-head text-white text-center">
                         <h3 class="h3 text-uppercase">What Peolpe Are Saying</h3>
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry has been the industry's standard dummy text ever since the been when an unknown printer.</p>
                     </div>
                     <div class="section-content">
                         <div class="testimonial-three owl-carousel owl-none">
