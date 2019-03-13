@@ -106,7 +106,7 @@
                      <div class="col-lg-4 col-md-6 col-sm-6" >
                          <div class="widget widget_about">
                              <div class="logo-footer"><img src="{{ url('/images/logo.jpg') }}" alt="Thottakaran Logo"></div>
-                             <p><strong></strong>About Thottakaran Discription</p>
+                             <p><strong></strong>Thottakaaran ia a venture that was started to provide is customers greenery in any form as per their customizations.</p>
                              <ul class="dez-social-icon">
                                  <li class="border"><a class="fa fa-facebook" href="https://www.facebook.com/thottakaaran/"></a></li>
                              </ul>
