@@ -36,10 +36,6 @@
                          <div class="m-t20">
                              <ul class="dez-social-icon dez-social-icon-lg">
                                  <li><a href="https://www.facebook.com/mythottakaran/" class="fa fa-facebook bg-primary"></a></li>
-                                 <li><a href="javascript:void(0);" class="fa fa-twitter bg-primary"></a></li>
-                                 <li><a href="javascript:void(0);" class="fa fa-linkedin bg-primary"></a></li>
-                                 <li><a href="javascript:void(0);" class="fa fa-pinterest-p bg-primary"></a></li>
-                                 <li><a href="javascript:void(0);" class="fa fa-google-plus bg-primary"></a></li>
                              </ul>
                          </div>
                      </div>
@@ -113,8 +109,6 @@
                              <p><strong></strong>About Thottakaran Discription</p>
                              <ul class="dez-social-icon">
                                  <li class="border"><a class="fa fa-facebook" href="https://www.facebook.com/thottakaaran/"></a></li>
-                                 <li class="border"><a class="fa fa-twitter" href="#"></a></li>
-                                 <li class="border"><a class="fa fa-linkedin" href="#"></a></li>
                              </ul>
                          </div>
                      </div>
@@ -125,12 +119,12 @@
                                  <div class="dez-separator bg-white style-skew"></div>
                              </div>
                              <ul>
-                                 <li><a href="#">Garden Design and Landscaping</a></li>
-                                 <li><a href="#">Garden Maintenance</a></li>
-                                 <li><a href="#">Lawn Mowing</a></li>
-                                 <li><a href="#">Hedge Cutting</a></li>
-                                 <li><a href="#">Weeding </a></li>
-                                 <li><a href="#">Leaf Clearance</a></li>
+                                 <li><a href="#landscaping">Vertical Gardening</a></li>
+                                 <li><a href="#mowing">Terrace Gardening</a></li>
+                                 <li><a href="#spring-clean">Plant Gifts</a></li>
+                                 <li><a href="#fall-clean">Plant Return Gifts</a></li>
+                                 <li><a href="#tree-removal">Plant Interior Designing</a></li>
+                                 <li><a href="#lawn-care">Landscaping</a></li>
                              </ul>
                          </div>
                      </div>
@@ -154,7 +148,7 @@
          <div class="footer-bottom footer-line">
              <div class="container">
                  <div class="row">
-                     <div class="col-lg-12 text-center"> <span>© copyright {{ date('Y') }} by <a href="https://www.greefitech.com">Greefi Technology</a> . All Rights Reserved.</span> </div>
+                     <div class="col-lg-12 text-center"> <span>© Copyright {{ date('Y') }}Thottakaaran. Developed By <a href="https://www.greefitech.com">Greefi Technology</a> . All Rights Reserved.</span> </div>
                  </div>
              </div>
          </div>
