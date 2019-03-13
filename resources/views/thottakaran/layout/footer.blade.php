@@ -148,7 +148,7 @@
          <div class="footer-bottom footer-line">
              <div class="container">
                  <div class="row">
-                     <div class="col-lg-12 text-center"> <span>© Copyright {{ date('Y') }} Thottakaaran.Developed By<a href="https://www.greefitech.com">Greefi Technology</a>.All Rights Reserved.</span></div>
+                     <div class="col-lg-12 text-center"> <span>© Copyright {{ date('Y') }} Thottakaaran.Developed By<a href="https://www.greefitech.com">Greefi Technologies</a>.All Rights Reserved.</span></div>
                  </div>
              </div>
          </div>
