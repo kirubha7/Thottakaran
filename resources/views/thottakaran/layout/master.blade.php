@@ -3,16 +3,20 @@
 <head> 
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="keywords" content="" />
-    <meta name="author" content="Greefi Technology" />
-    <meta name="robots" content="" />
+    <title>Thottakaaran @yield('title')</title>
+    <meta name="author" content="Thottakaaran" />
+    <meta name="copyright" content="Thottakaaran">
     <meta property="og:title" content="Thottakaaran"/>
     <meta name="description" content="Thottakaaran ia a venture that was started to provide is customers greenery in any form as per their customizations."/>
-    
+    <meta name="keywords" content="Thottakaaran,Thottakaaran chennai">
+    <meta name="distribution" content="global">
+    <meta name="contact" content="thottakaran@gmail.com" />
     <link rel="shortcut icon" type="image/x-icon" href="{{ url('images/logo.jpg') }}" />
-    
-    <title>Thottakaaran @yield('title')</title>
-    
+    <link rel="canonical" href="http://thottakaaran.com" />
+    <meta name="identifier-URL"CONTENT="http://thottakaaran.com">
+    <meta name="contactCity"CONTENT="Chennai">
+    <meta name="robots" content="index, follow">
+   
     <meta name="viewport" content="width=device-width, initial-scale=1">
     
     <link rel="stylesheet" type="text/css" href="{{ url('css/plugins.css') }}">
