@@ -7,6 +7,9 @@ Route::get('/home', function () {
 
     //dd($users);
 
-    return view('admin.home');
+    return view('admin.content.index');
 })->name('home');
 
+//content
+
+Route::get('/content','Contentcontroller@content')->name('content');
