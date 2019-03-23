@@ -61,6 +61,12 @@
                   <span>Add Content</span>
               </a>
           </li>
+          <li>            
+              <a class="active" href="{{url('admin/content/show_content')}}">
+                  <i class="fa fa-user"></i>
+                  <span>View Content</span>
+              </a>
+          </li>
           <li>
               <a class="active" href="view_student.php">
                   <i class="fa fa-eye"></i>

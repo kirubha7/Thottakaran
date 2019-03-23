@@ -162,3 +162,21 @@ p.small {
     padding: 10px;
     animation-delay: 3s;
 }
+
+/*Date*/
+.c-input {
+  display: block;
+  width: 100%;
+  margin: 0;
+  padding: 0.625rem 0.9375rem;
+  -webkit-transition: all .3s;
+  transition: all .3s;
+  border: 1px solid #99A5BD;
+  border-radius: 4px;
+  background-color: #fff;
+  color: #252529;
+  font-size: 0.75rem;
+  font-weight: 400;
+  resize: none; }
+
+/*Date*/

@@ -13,3 +13,6 @@ Route::get('/home', function () {
 //content
 
 Route::get('/content','Contentcontroller@content')->name('content');
+Route::post('/content','Contentcontroller@insert')->name('content');
+Route::get('/content/show_content','Contentcontroller@show')->name('show_content');
+

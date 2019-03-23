@@ -1,7 +1,7 @@
 @extends('admin.layout.master')
 
 @section('content')
-     <form action="{{ route('admin.content') }}" method="post">
+     <form action="{{ route('admin.content') }}" method="POST">
      {{ csrf_field() }}
      <div class="col-xs-12 col-sm-12 col-md-12">
           <div class="form-group">
@@ -11,8 +11,14 @@
       </div>
       <div class="col-xs-12 col-sm-12 col-md-12">
           <div class="form-group">
+              <strong>Date:</strong>
+              <input class="form-control" type="date" value="" name="dateFrom" id="entry-dateFrom">
+          </div>
+      </div>
+      <div class="col-xs-12 col-sm-12 col-md-12">
+          <div class="form-group">
               <strong>Detail:</strong>
-              <textarea class="form-control" id="article-ckeditor"></textarea>
+              <textarea class="form-control" name="ckeditor" id="article-ckeditor"></textarea>
           </div>
       </div>
       @if ($errors->any())
