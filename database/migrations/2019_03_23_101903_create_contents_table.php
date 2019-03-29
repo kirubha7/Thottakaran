@@ -15,9 +15,9 @@ class CreateContentsTable extends Migration
     {
         Schema::create('contents', function (Blueprint $table) {
             $table->bigIncrements('id');
-            $table->string('name');
-            $table->date('dateFrom');
-            $table->string('ckeditor');
+            $table->date('date');
+            $table->string('title');
+            $table->longText('content');
             $table->timestamps();
         });
     }

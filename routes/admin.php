@@ -7,12 +7,15 @@ Route::get('/home', function () {
 
     //dd($users);
 
-    return view('admin.content.index');
+    return view('admin.content.show');
 })->name('home');
 
 //content
 
-Route::get('/content','Contentcontroller@content')->name('content');
-Route::post('/content','Contentcontroller@insert')->name('content');
-Route::get('/content/show_content','Contentcontroller@show')->name('show_content');
+Route::get('/content/add','Contentcontroller@content');
+Route::post('/content/add','Contentcontroller@savecontent')->name('savecontent');
+Route::get('/contents','Contentcontroller@show')->name('show_content');
+Route::get('/content/{id}/edit','Contentcontroller@EditContent')->name('EditContent');
+Route::post('/content/{id}/update','Contentcontroller@UpdateContent')->name('UpdateContent');
+Route::delete('/content/{id}/delete','Contentcontroller@DeleteContent')->name('DeleteContent');
 

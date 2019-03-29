@@ -4,15 +4,11 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
-
-    <title>{{ config('app.name', 'Laravel Multi Auth Guard') }}</title>
-
+    <title>Thottakaaran -admin</title>
     <!-- Styles -->
     <link href="/css/app.css" rel="stylesheet">
-
     <!-- Scripts -->
     <script>
         window.Laravel = <?php echo json_encode([
@@ -24,7 +20,6 @@
     <nav class="navbar navbar-default navbar-static-top">
         <div class="container">
             <div class="navbar-header">
-
                 <!-- Collapsed Hamburger -->
                 <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#app-navbar-collapse">
                     <span class="sr-only">Toggle Navigation</span>
@@ -34,23 +29,19 @@
                 </button>
 
                 <!-- Branding Image -->
-                <a class="navbar-brand" href="{{ url('/admin') }}">
-                    {{ config('app.name', 'Laravel Multi Auth Guard') }}: Admin
+                <a class="navbar-brand" href="{{ url('/admin/login') }}">
+                    Thottakaaran Admin
                 </a>
             </div>
-
             <div class="collapse navbar-collapse" id="app-navbar-collapse">
                 <!-- Left Side Of Navbar -->
                 <ul class="nav navbar-nav">
                     &nbsp;
                 </ul>
-
                 <!-- Right Side Of Navbar -->
                 <ul class="nav navbar-nav navbar-right">
                     <!-- Authentication Links -->
                     @if (Auth::guest())
-                        <li><a href="{{ url('/admin/login') }}">Login</a></li>
-                        <li><a href="{{ url('/admin/register') }}">Register</a></li>
                     @else
                         <li class="dropdown">
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
@@ -64,7 +55,6 @@
                                                  document.getElementById('logout-form').submit();">
                                         Logout
                                     </a>
-
                                     <form id="logout-form" action="{{ url('/admin/logout') }}" method="POST" style="display: none;">
                                         {{ csrf_field() }}
                                     </form>
@@ -76,7 +66,6 @@
             </div>
         </div>
     </nav>
-
     @yield('content')
 
     <!-- Scripts -->
