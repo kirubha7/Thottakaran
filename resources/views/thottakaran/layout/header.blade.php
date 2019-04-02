@@ -44,6 +44,7 @@
                          <li class=""> <a href="#gallery">Gallery</a></li>
                          <li class=""> <a href="#About-Us">About Us</a>
                          <li class=""> <a href="#contact-us">Contact Us</a></li>
+                         <li class=""> <a href="{{ route('content') }}">Content</a></li>
                      </ul>
                  </div>
              </div>

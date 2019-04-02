@@ -12,6 +12,8 @@
 */
 
 Route::get('/', function () { return view('thottakaran.index'); })->name('home');
+Route::get('/content', 'HomeController@Content')->name('content');
+
 Route::post('/sendmail','MailController@sendMail')->name('mail');
 
 Route::group(['prefix' => 'admin'], function () {
