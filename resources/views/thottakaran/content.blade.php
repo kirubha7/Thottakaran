@@ -23,37 +23,29 @@
 
     <div class="section-full content-inner">
         <div class="container">
-
-
             @foreach($Contents as $Content)
                 <div class="blog-post blog-md clearfix">
                     <div class="dez-post-info">
                         <div class="dez-post-title ">
-                            <h3 class="post-title"><a href="#">{{ $Content->title }}</a></h3>
+                            <h3 class="post-title"><a href="{{ url('/viewcontent',[$Content->id,str_replace(' ', '-', $Content->title)]) }}"></i>{{ $Content->title }}</a></h3>
                         </div>
                         <div class="dez-post-meta ">
                             <ul>
                                 <li class="post-date"> <i class="fa fa-calendar"></i>{{ date("d M Y", strtotime($Content->date)) }}</li>
-                                <li class="post-author"><i class="fa fa-user"></i>By <a href="#">Admin</a> </li>
+                                <li class="post-author"><i class="fa fa-user"></i>By Admin</li>
                             </ul>
                         </div>
                         <div class="dez-post-text">
                             <p>
-                                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy
-                                text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                                {{ $Content->description }}
                             </p>
                         </div>
                         <div class="dez-post-readmore">
-                            <a href="#" title="READ MORE" rel="bookmark" class="site-button-link">Read More...</a>
+                            <a href="{{ url('/viewcontent',$Content->id) }}" title="READ MORE" rel="bookmark" class="site-button-link">Read More...</a>
                         </div>
                     </div>
                 </div>
             @endforeach
-
-
-
         </div>
     </div>
-
-
 @endsection

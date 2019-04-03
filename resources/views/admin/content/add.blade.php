@@ -22,13 +22,19 @@
                                 <input class="form-control" type="date" name="date" id="entry-dateFrom">
                             </div>
                         </div>
+                        <div class="col-xs-6 col-sm-6 col-md-6">
+                            <div class="form-group">
+                                <strong>Content Description:</strong>
+                                <textarea class="form-control" name="description" style="resize:none, "></textarea>
+                            </div>
+                        </div>
                         <div class="col-xs-12 col-sm-12 col-md-12">
                             <div class="form-group">
                                 <strong>Content:</strong>
                                 <textarea class="form-control" name="content" id="ckeditor"></textarea>
-                            </div>
+                            </div>                        
+                            <button type="submit" class="btn btn-primary">Submit</button>
                         </div>
-                        <button type="submit" class="btn btn-primary">Submit</button>
                     </form>
                 </div>
             </div>

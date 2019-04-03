@@ -13,6 +13,7 @@
            <tr>
             <td>Date</td>
             <td>Content Title</td>
+            <td>Content Description</td>            
             <td>Action</td>
            </tr>
            </thead>
@@ -21,6 +22,7 @@
             <tr>
              <td>{{ date("d-m-Y", strtotime($Content->date)) }}</td>
              <td>{{ $Content->title }}</td>
+             <td>{{ $Content->description }}</td> 
              <td>
               <form  method="POST" enctype="multipart/form-data" action="{{ route('admin.DeleteContent',$Content->id) }}">
                {{ csrf_field() }}

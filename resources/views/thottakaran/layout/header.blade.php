@@ -27,7 +27,7 @@
          <div class="main-bar bg-primary clearfix ">
              <div class="container clearfix">
                  <!-- website logo -->
-                 <div class="logo-header mostion"><a href="{{ route('home') }}"><img src="images/logo.jpg" width="193" height="89" alt=""></a></div>
+                 <div class="logo-header mostion"><a href="{{ route('home') }}"><img src="{{ url('images/logo.jpg') }}" width="193" height="89" alt=""></a></div>
                  <!-- nav toggle button -->
                  <button class="navbar-toggler collapsed navicon justify-content-end" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                      <span></span>
@@ -40,10 +40,10 @@
                  <div class="header-nav navbar-collapse collapse justify-content-end"  id="navbarNavDropdown">
                      <ul class=" nav navbar-nav">
                          <li class="active"> <a href="{{ route('home') }}">Home</a></li>
-                         <li class=""> <a href="#services">Services</a></li>
-                         <li class=""> <a href="#gallery">Gallery</a></li>
-                         <li class=""> <a href="#About-Us">About Us</a>
-                         <li class=""> <a href="#contact-us">Contact Us</a></li>
+                         <li class=""> <a href="../#services">Services</a></li>
+                         <li class=""> <a href="../#gallery">Gallery</a></li>
+                         <li class=""> <a href="../#About-Us">About Us</a>
+                         <li class=""> <a href="../#contact-us">Contact Us</a></li>
                          <li class=""> <a href="{{ route('content') }}">Content</a></li>
                      </ul>
                  </div>

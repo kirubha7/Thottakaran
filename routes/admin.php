@@ -7,7 +7,7 @@ Route::get('/home', function () {
 
     //dd($users);
 
-    return view('admin.content.show');
+    return view('admin.content.add');
 })->name('home');
 
 //content

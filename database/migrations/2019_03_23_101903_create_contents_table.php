@@ -17,6 +17,7 @@ class CreateContentsTable extends Migration
             $table->bigIncrements('id');
             $table->date('date');
             $table->string('title');
+            $table->longText('description');
             $table->longText('content');
             $table->timestamps();
         });

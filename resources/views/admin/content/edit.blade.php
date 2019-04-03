@@ -22,13 +22,19 @@
                                 <input class="form-control" type="date"  value="{{ $Content->date }}" name="date" id="entry-dateFrom">
                             </div>
                         </div>
+                        <div class="col-xs-6 col-sm-6 col-md-6">
+                            <div class="form-group">
+                                <strong>Content Description:</strong>
+                                <textarea class="form-control" name="description">{{ $Content->description }}</textarea>
+                            </div>
+                        </div>
                         <div class="col-xs-12 col-sm-12 col-md-12">
                             <div class="form-group">
                                 <strong>Content:</strong>
                                 <textarea class="form-control" name="content" id="ckeditor">{{ $Content->content }}</textarea>
-                            </div>
+                            </div>                        
+                            <button type="submit" class="btn btn-primary">Update</button>
                         </div>
-                        <button type="submit" class="btn btn-primary">Update</button>
                     </form>
                 </div>
             </div>

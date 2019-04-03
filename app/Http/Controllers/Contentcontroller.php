@@ -18,6 +18,7 @@ class Contentcontroller extends Controller
     	$Content = new Content();
     	$Content->title = request('title');
     	$Content->date = request('date');
+        $Content->description = request('description');
     	$Content->content = request('content');
     	$Content->save();
     	return back()->with('success','Content Added Successfully');
@@ -37,9 +38,10 @@ class Contentcontroller extends Controller
         $Content = Content::findorfail($id);
         $Content->title = request('title');
         $Content->date = request('date');
+        $Content->description = request('description');
         $Content->content = request('content');
         $Content->save();
-        return back()->with('success','Content Updated Successfully');
+        return redirect('admin/contents')->with('success','Content Updated Successfully');
     }
 
     public function DeleteContent($id){
