@@ -19,3 +19,6 @@ Route::get('/content/{id}/edit','Contentcontroller@EditContent')->name('EditCont
 Route::post('/content/{id}/update','Contentcontroller@UpdateContent')->name('UpdateContent');
 Route::delete('/content/{id}/delete','Contentcontroller@DeleteContent')->name('DeleteContent');
 
+Route::get('/profile','Contentcontroller@profile')->name('profile');
+Route::post('/profile','Contentcontroller@updateProfile')->name('updateProfile');
+

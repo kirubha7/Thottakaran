@@ -12,7 +12,7 @@
                     <i class="fa fa-eye"></i>
                     <span>View Content</span>
                 </a>
-            </li>
+            </li>            
         </ul>
     </section>
 </aside>

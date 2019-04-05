@@ -4,6 +4,8 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\Content;
+use App\Admin;
+
 class Contentcontroller extends Controller
 {
      public function __construct(){
@@ -47,6 +49,26 @@ class Contentcontroller extends Controller
     public function DeleteContent($id){
         Content::findorfail($id)->delete();
         return back()->with('success','Content Deleted Successfully');
+    }
+
+    public function updateProfile(){
+        $this->validate(request(),[
+            'oldPassword'=>'required',
+            'password'    =>'required|confirmed|min:6',
+        ]);
+        $authundicated_user = Admin::find(auth()->user()->id);
+
+        if (password_verify(request('oldPassword'), $authundicated_user->password)) {
+            $authundicated_user->password = bcrypt(request('password'));
+            $authundicated_user->save();
+            return back()->with('success','Password Changed successfully!!');
+        }else{
+            return back()->with('wrong','Current Password is Wrong !!');
+        }
+    }
+
+    public function profile(){
+        return view('admin.content.profile');
     }
 
 
